@@ -1,0 +1,86 @@
+.btnIn {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  width: 200px;
+  background-color: transparent;
+  color: #1c9cef;
+  border: 1px solid white;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px; 
+  cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 1001;
+  border-radius: 2%;
+
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #171f2c;
+}
+
+.inputInfo {
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 200px;
+  border: #171f2c 1px solid;
+}
+
+.submitBtn {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  width: 200px;
+  border: #171f2c 1px solid;
+  margin-bottom: 20px;
+}
+
+/* styles/Signin.module.css */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Noir avec une opacité de 50% */
+  position: fixed; /* Fixé à la fenêtre */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000; /* Veillez à ce qu'il soit au-dessus des autres éléments */
+}
