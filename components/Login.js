@@ -16,7 +16,7 @@ function Login() {
         </div>
         <div className={styles.right}>
           <div className={styles.header}>
-            <img src='/logotwitter.png' alt='Twitter logo' className={styles.logo} />
+            <img src='/logoTwitter.png' alt='Twitter logo' className={styles.logo} />
           </div>
           <div className={styles.content}>
             <h1 className={styles.title}>
